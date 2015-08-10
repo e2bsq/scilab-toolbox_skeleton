@@ -9,11 +9,11 @@ extern "C"
 /* ==================================================================== */	
   #include "api_scilab.h"
   #include "Scierror.h"
-  #include "MALLOC.h"
+  #include "sci_malloc.h"
   #include <localization.h>
 
 /* ==================================================================== */
-  int sci_cpp_find(char *fname) 
+  int sci_cpp_find(char *fname, void* pvApiCtx) 
   {
     SciErr sciErr;
     
