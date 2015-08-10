@@ -31,8 +31,6 @@
 # Debug files
 *.dSYM/
 
-
-  cleaner.sce
 help/en_US/master_help.xml
 help/en_US/scilab_en_US_help/
 help/fr_FR/master_help.xml
